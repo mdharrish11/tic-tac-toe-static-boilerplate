@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#1e90ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+#heading{
+    margin-top:60px;
+    margin-bottom:50px;
+    text-align: center;
+    font-family: "Fredoka One";
+    font-size: 60px;
+    color:#FAB201;
+    -webkit-text-stroke: 2px white;
+}
+#gameBox{
+    width:215vh;
+}
+#main-container{
+    display:grid;
+    grid-template-columns:repeat(3,0fr);
+    margin: auto;
+   justify-content: center;
+    padding: 10px;
+      
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+    
+    
+}
+#bottom_content{
+    margin-top:50px;
+    text-align: center;
+    color: white;
+    font-family: "Fredoka One",sans-serif;
+    font-size: 30px;
+}
